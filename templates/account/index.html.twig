@@ -5,4 +5,9 @@
 {% block container %}
     <h1> Mon compte </h1>
     Bienvenue {{ app.user.firstname }} dans votre compte .C'est ici que vous aller pouvoir gérer les informations de votre compte.
+
+    <hr>
+        <a href="{{ path('account_password') }}">Modifier mon mot de passe</a></br>
+    <hr>
+
 {% endblock %}

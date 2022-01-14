@@ -1,0 +1,21 @@
+.navbar-item-custom , .navbar-item-custom a
+{
+    color: white;
+}
+.footer-custom
+{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    width: 100%; 
+    padding: 8px;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0;    
+}
+main
+{
+    min-height: 66vh;
+}
